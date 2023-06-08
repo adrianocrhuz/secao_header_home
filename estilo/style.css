@@ -124,3 +124,27 @@ span {
     font-weight: bold;
     font-size: 20px;
 }
+@media (max-width: 480px) {
+    .home-text h1 {
+        padding: 10px 2%;
+        font-size: 1.8rem;
+    }
+    .home-text h2 {
+        font-size: 1.2rem;;    
+    }
+    .home-text p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 780px) {
+    .home-text h1 {
+        padding: 10px 2%;
+        font-size: 1.8rem;
+    }
+    .home-text h2 {
+        font-size: 1.2rem;;    
+    }
+    .home-text p {
+        font-size: 1rem;
+    }
+}
