@@ -148,3 +148,42 @@ span {
         font-size: 1rem;
     }
 }
+@media (max-width: 920px) {
+    #menu-icon {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 50%;
+        font-weight: 500;
+        transition: all .50s ease;
+    }
+    .navbar {
+        position: absolute;
+        top: -800px;/*100%*/
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background: #591c21;
+        transition: all .50s ease;
+    }
+    .navbar a {
+        display: block;
+        color: #fff;
+        padding: 5px;
+        margin: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        transition: all .50s ease;
+        
+    }
+    .navbar.active {
+        top:100%;
+    }
+}
