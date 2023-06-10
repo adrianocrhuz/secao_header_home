@@ -30,13 +30,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 14%;
+    padding: 20px 14%;
     transition: all .40s ease;
     background: #fff;
     z-index: 1000;
 }
 .logo img {
-    width: 50%;
+    width: 100%;
+    max-width: 50%;
     height: auto;
 }
 .navbar {
@@ -70,8 +71,8 @@ header {
     color: var(--second-color);
 }
 #menu-icon {
-    width: 37px;
-    height: 37px;
+    width: 30px;
+    height: 30px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 50%;

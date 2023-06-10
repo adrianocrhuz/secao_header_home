@@ -1,9 +1,14 @@
-let navbar = document.queryselector('.navbar')
-let menu = document.querySelector("#menu-icon")
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
-    menu.classlist.toggle('.navbar')
-    navbar.classlist.toggle('#menu-icon')
-}
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+
+window.onscroll = () => {
+    menu.classList.remove('bx-x');
+    navbar.classList.remove('active');
+};
 
 
